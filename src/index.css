@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#Home {
+  background-image: url("../public/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #Home {
+    background-image: url("../public/assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 850px) {
+  #Home {
+    background-image: url("../public/assets/home/background-home-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#Destination {
+  background-image: url("../public/assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #Destination {
+    background-image: url("../public/assets/destination/background-destination-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 850px) {
+  #Destination {
+    background-image: url("../public/assets/destination/background-destination-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#Crew {
+  background-image: url("../public/assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #Crew {
+    background-image: url("../public/assets/crew/background-crew-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 850px) {
+  #Crew {
+    background-image: url("../public/assets/crew/background-crew-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#Technology {
+  background-image: url("../public/assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #Technology {
+    background-image: url("../public/assets/technology/background-technology-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (max-width: 850px) {
+  #Technology {
+    background-image: url("../public/assets/technology/background-technology-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.active button {
+  background-color: white; /* Set the color for the active state */
+  color: #000;
+}
